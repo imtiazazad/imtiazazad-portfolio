@@ -10,26 +10,25 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+  title2: "Imtiaz",
+  logo_name: "imtiaz.a()",
+  nickname: "imtiaz / picleric",
+  full_name: "Imtiaz Azad",
+  subTitle: "Mern Stack Developer, Blockchain Enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1IQge4pNhyj-RD2OOnEMrRPMODDUWeVDy/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+    "https://docs.google.com/document/d/1nnlAjbeYU1Aj_1VH_bDBa3n7AJS8lUan/edit?usp=sharing",
+  mail: "mailto:imtiaz.azad98@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
-  gitlab: " ",
-  facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  github: "https://github.com/imtiazazad",
+  linkedin: "https://www.linkedin.com/in/imtiazazad/",
+  gmail: "imtiaz.azad98@gmail.com",
+  gitlab: "https://github.com/imtiazazad",
+  facebook: "https://www.instagram.com/imazix/",
+  twitter: "https://twitter.com/imtiazazad5",
+  instagram: "https://www.instagram.com/imtiazazad/",
 };
 
 const skills = {
@@ -38,9 +37,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and native Android",
+        "⚡ Building responsive website front end using HTML, CSS, ReactJS",
         "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing web application ",
       ],
       softwareSkills: [
         {
@@ -58,18 +57,25 @@ const skills = {
           },
         },
         {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#7377AD",
+          },
+        },
+        {
+          skillName: "SASS",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#DE33A6",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
           },
         },
         {
@@ -80,44 +86,8 @@ const skills = {
           },
         },
         {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
           skillName: "C",
           fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
             color: "#E94E32",
           },
@@ -127,15 +97,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NextJS",
-          fontAwesomeClassname: "simple-icons:nextdotjs",
-          style: {
-            color: "#FFFFFF",
-            backgroundColor: "#1D1D1D",
-            borderRadius: "50%",
           },
         },
         {
@@ -153,42 +114,12 @@ const skills = {
           },
         },
         {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Android App Development",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "#4479A1",
           },
         },
-
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -199,71 +130,14 @@ const skills = {
       ],
     },
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
-        },
-      ],
-    },
-    {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
         "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -299,13 +173,6 @@ const skills = {
             color: "#47A248",
           },
         },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
       ],
     },
   ],
@@ -314,17 +181,30 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "Daffodil International University",
+      subtitle: "BSc. in Computer and Information Systems",
       logo_path: "sal.png",
       alt_name: "SETI",
-      duration: "2017 - 2021",
+      duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
+        "⚡ I have studied core subjects like Data Structures, Algorithm, OOP, OS, DBMS, Networking, Security, etc.",
+        "⚡ I have also completed various online courses for Programming, Web Development, Networking, etc.",
+        "⚡ I have implemented several projects based on what I've learnt under my web development course. ",
       ],
-      website_link: "https://www.sal.edu.in/",
+      website_link: "https://daffodilvarsity.edu.bd/",
+    },
+    {
+      title: "State Universitycof Bangladesh",
+      subtitle: "BBA in Human Resource",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "2017 - 2020",
+      descriptions: [
+        "⚡ I have studied core subjects like Human Resources (HR), Manpower Planning & Development, Career Planning and Development, Industrial Relations, Organization and Conflict Management, Leadership Perspective etc.",
+        "⚡ I have also completed various online courses on Supply Chain Logistics, Initiating and Planning Projects, Employability Skills [Part 1]: Improve Job Opportunities etc.",
+        "⚡ I have done thesis based on what I've learnt from my undergraduate with name human empowerment in modern world. ",
+      ],
+      website_link: "https://daffodilvarsity.edu.bd/",
     },
   ],
 };
@@ -332,115 +212,67 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Deep Learning Specialization",
-      subtitle: "deeplearning.ai",
+      title: "Complete Web Development Course With Jhankar Mahbub",
+      subtitle: "Mern Stack Development",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
+        "https://drive.google.com/file/d/106Oycv9gtbFiWigj_NILk6OMfWGBxrsv/view",
       alt_name: "deeplearning.ai",
       color_code: "#47A048",
     },
     {
-      title: "Sequence Models",
-      subtitle: "deeplearning.ai",
+      title: "Interactivity with JavaScript",
+      subtitle: "Interactivity with JavaScript",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
+        "https://www.coursera.org/account/accomplishments/certificate/JQGMP52DSJR8",
       alt_name: "deeplearning.ai",
       color_code: "#F6B808",
     },
     {
-      title: "Convolutional Neural Networks",
-      subtitle: "deeplearning.ai",
+      title: "Modern JavaScript: ES6 Basics",
+      subtitle: "Modern JavaScript: ES6 Basics",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+        "https://www.coursera.org/account/accomplishments/certificate/4D2L8U2FFY8F",
       alt_name: "deeplearning.ai",
       color_code: "#2AAFED",
     },
     {
-      title: "Structuring Machine Learning Projects",
-      subtitle: "deeplearning.ai",
+      title: "Networking Academy Learn-A-Thon 2021",
+      subtitle: "Networking Academy Learn-A-Thon 2021",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
+        "https://www.credly.com/badges/35815077-26f3-46e5-9a63-7a43eb31b9ba?source=linked_in_profile",
       alt_name: "deeplearning.ai",
       color_code: "#E2405F",
     },
     {
-      title: "Machine Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "stanford_logo.png",
+      title: "Employability Skills [Part 1]: Improve Job Opportunities",
+      subtitle: "Employability Skills [Part 1]: Improve Job Opportunities",
+      logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
+        "https://goedu.ac/certificates/709a3a49321e0a5f9c5ffcbff244d204/",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
     {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
+      title: "Initiating and Planning Projects",
+      subtitle: "Initiating and Planning Projects",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
+        "https://www.coursera.org/account/accomplishments/certificate/KG6DQ354NPMW",
       alt_name: "Google",
       color_code: "#7A7A7A",
     },
     {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
+      title: "Supply Chain Logistics",
+      subtitle: "Supply Chain Logistics",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
+        "https://www.coursera.org/account/accomplishments/certificate/GNP9BZT9QXK6",
       alt_name: "Google",
       color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
-      color_code: "#C5E2EE",
-    },
-    {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
-    },
-    {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
-    },
-    {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
-    },
-    {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
     },
   ],
 };
@@ -450,69 +282,81 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed three non-technical jobs and three technical jobs from different organizations. I've mostly done projects with the team and I am actively looking for projects to develop. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Technical Job Experiences",
       experiences: [
         {
-          title: "Full Stack Developer",
-          company: "Quicko",
-          company_url: "https://quicko.com/",
+          title: "Technical Team Manager",
+          company: "ImernTech",
+          company_url: "https://ImernTech.com/",
           logo_path: "quicko.jpg",
-          duration: "June 2021 - October 2021",
-          location: "Ahmedabad",
+          duration: "June 2022 - Present",
+          location: "Ashulia, Dhaka",
           description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
+            "Maintaining a team of 12 members. Completed several projects. Most members are MERN-stack web developer. We have also laravel developer. We have more than 3+ years of experience in the company and have good knowledge of front-end and back-end techniques for building web applications that match client needs. The team skilled about web design too. We have developed several web applications from scratch but at the same time, we manage and update existing projects also as we have debugging skills (DEV Tools). We are proficient in working with the following technologies : Front-end technologies: HTML, CSS, Bootstrap, Tailwind, Material UI, Daisy UI, SASS, Responsive sites, Smooth Animations, JavaScript (ES6), DOM, Typescript, React.js, Redux, Hooks API, REST API. Back-end technologies: Node.js, Express js, Firebase. Database: MongoDB. Hosting: Heroku, Firebase, Netlify, Github. Reason to choose me: Quality Work, Customer Satisfaction, 24/7 Availability, Flexible Timing, Reasonable Cost, Fast Delivery",
+          color: "#2962FF",
+        },
+        {
+          title: "Frontend Developer",
+          company: "Codixel",
+          company_url: "https://www.codixel.tech/",
+          logo_path: "quicko.jpg",
+          duration: "March 2022 - August 2022",
+          location: "Mohammadpur, Dhaka",
+          description:
+            "Work using html, CSS, bootstrap, tailwind, SASS, GitHub, chrome dev tool, netlify, adobe xd,Work using html, CSS, bootstrap, tailwind, SASS, GitHub, chrome dev tool, netlify, adobe xd,Skills: JavaScript · React.js · Front-End Development · Adobe XD · Bootstrap · SASS · GitHub · Cascading Style Sheets (CSS) · HTML",
+          color: "#2962FF",
+        },
+        {
+          title: "Web Developer",
+          company: "Self Employed",
+          logo_path: "quicko.jpg",
+          duration: "September 2020 - Present",
+          location: "Dhaka",
+          description:
+            "Programming language: C, java, python, JavaScript. Web tech: html, CSS, bootstrap, tailwind, SASS, DOM,ES6, json, React, node js, express js, mongodb. Others: GitHub, chrome dev tool, netlify, adobe xd, figma, heroku, DaisyUIProgramming language: C, java, python, JavaScript. Web tech: html, CSS, bootstrap, tailwind, SASS, DOM,ES6, json, React, node js, express js, mongodb Others: GitHub, chrome dev tool, netlify, adobe xd, figma, heroku, DaisyUI. Skills: JavaScript · React.js · Front-End Development · Bootstrap · SASS · GitHub · ES6 · Cascading Style Sheets (CSS) · HTML",
           color: "#2962FF",
         },
       ],
     },
     {
-      title: "Internships",
+      title: "Non-technical Jobs",
       experiences: [
         {
-          title: "Google Summer of Code",
-          company: "Sugar Labs",
-          company_url: "https://sugarlabs.org/",
+          title: "Community Organizer",
+          company: "Save the Children",
+          company_url: "https://www.savethechildren.net/",
           logo_path: "google_logo.png",
-          duration: "May 2019 - Aug 2019",
-          location: "Work From Home",
+          duration: "July 2020 - October 2021 ",
+          location: "Cox's Bazar District, Chittagong, Bangladesh",
           description:
-            "I worked on the Dashboard project which helps users track their activities while using Sugar OS. I also worked on making a Tamagotchi-like widget for Sugar's Home Screen",
+            "Effectively organized and maintained a team of 20 members who are responsible for field work.Apply managerial skills to coordinating with and training staff, assigning tasks and evaluating them. Guide and mentor staff in planning, organizational, collaboration. Encourage new ideas, designs, strategies and hire consistently varied and qualified candidates. Coordinate with staff to devise action plans to promote a broader social change in community. Mentor, encourage and educate the chapter in formulating strategies. Plan strategies with chapter and management for the expansion of the organization.",
           color: "#ee3c26",
         },
         {
-          title: "Android App Developer Intern",
-          company: "IAS4Sure",
-          company_url: " ",
+          title: "Enumerator",
+          company: "World Food Programme",
+          company_url: "https://www.wfp.org/",
           logo_path: "buld.jpg",
-          duration: "December 2019 - February 2020",
-          location: "Work From Home",
+          duration: "April 2018 - Jun 2020",
+          location: "Cox’s Bazar, Chittagong, Bangladesh",
           description:
-            "Internship task was to make a native Android application. ",
+            "Supported by Save The Children, donated by World food programme in General Food Assistance(GFA).Successfully distributed food during covid-19 pandemic situation with maximum safety. Worked almost in every camp of Balukhali and Kutupalong. Duty station was Modhurchara- 4, for short time I have worked in Moinaguna-2 Modhurchara-2,3 and Camp-17, 20 extension. Worked as Translator, Data Entry and Help Desk Operator, Shop and Regularly Generator Monitor as well as Community Organizer in General Food Assistance (GFA) project. Experienced in Food Distribution Presentation Workshop-2018 & 2019. Key Responsibilities – Beneficiary sensitization, mobilization and token distribution. Crowd control during distribution, monitoring stores, top-up using M-pos. Survey primary blocks and keep up to date of master list. Keeping record in field book of all activities. Excellent communication with beneficiaries and project team. Supported to the supervisor to organize meeting, training, workshop.",
           color: "#0071C5",
         },
         {
-          title: "Web Developer",
-          company: "Wrighter Writing Solutions",
+          title: "Data Analyst",
+          company: "BRAC",
           company_url: " ",
           logo_path: "wrighter.jpg",
-          duration: "August 2020",
-          location: "",
-          description: "Develop a website using PHP and jQuery.",
+          duration: "August 2017 - March 2018",
+          location: "Cox's Bazar, Chittagong, Bangladesh",
+          description:
+            "Prepares, compiles, and sorts documents for data entry. Verifies and logs receipt of data. Transcribes source data into the required electronic format. Transfers information from paper formats into computer files using keyboards, data recorders, or optical scanners. Performs high-volume data entry using word processing, spreadsheet, database, or other computer software. Verifies integrity of data by comparing it to source documents. Reviews data for errors, missing pages, or missing information and resolves any discrepancies. Maintains a filing system and protects confidential customer information. Performs regular backups to ensure data preservation. Responds to requests to retrieve data from the database or electronic filing system. Maintains a satisfactory level of quality and productivity per department standards. Completes additional assigned tasks as required.",
           color: "#56A4D3",
-        },
-        {
-          title: "Front-End Developer",
-          company: "VJ TechServe",
-          company_url: " ",
-          logo_path: "vjt.png",
-          duration: "September 2020",
-          location: "",
-          description: "Develop a portfolio website using ReactJS",
-          color: "#800000",
         },
       ],
     },
@@ -520,46 +364,36 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Summer of Code Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
+          title: "blood donor ",
+          company: "HOPE Foundation",
+          company_url: "https://www.hopefoundationbd.org/",
           logo_path: "google_logo.png",
-          duration: "Summer of 2017 / 18 / 20",
+          duration: "Summer of 2020",
           location: " ",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "Help people to collect blood, as well as donating blood.",
           color: "#4285F4",
         },
         {
-          title: "Google Code-In Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
+          title: "General Member",
+          company: "Smile Creator",
+          company_url: "https://www.facebook.com/SmilecreatorBangladesh/",
           logo_path: "google_logo.png",
           duration: "Winter of 2017 / 18 / 19",
           location: " ",
           description:
-            "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
+            "Organize Social Awareness activities based on SDG (Sustainable Development Goal), Conduct seminar & workshop in educational institution through the team members, Report Submission & Group Discussion.",
           color: "#D83B01",
         },
         {
-          title: "Board Member at Codeuino",
-          company: " ",
-          company_url: " ",
+          title: "General Member",
+          company: "DIU Finance Club",
+          company_url: "https://www.facebook.com/DIUFC.diu/",
           logo_path: "codeuino.jpg",
-          duration: "2018 - 2019",
-          location: " ",
-          description: "Previous Board during early days of Codeuino",
-          color: "#D83B01",
-        },
-        {
-          title: "BluWings Club",
-          company: " ",
-          company_url: " ",
-          logo_path: "b.png",
-          duration: "2018 - On Going",
+          duration: "2021 - 2022",
           location: " ",
           description:
-            "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
+            "DIU Finance Club - DIUFC is a student run club aimed at creating skilled graduates for the financial market. We are creating opportunities for future leaders in the financial arena. Project planning, Organize team, Partnership With Local/International Organization, Fund Raising.",
           color: "#D83B01",
         },
       ],
@@ -579,7 +413,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path: "imtiaz3.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -587,7 +421,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "https://medium.com/@hrishipatel99",
+    link: "https://www.facebook.com/imazix/",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -596,9 +430,10 @@ const projects = {
   data: [
     {
       id: "50",
-      name: "Journalify",
-      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-      description: "You personal journaling companion, goals & daily challenges!",
+      name: "Warehouse Management",
+      url: "https://warehouse-management-269c6.web.app/",
+      description:
+        "React Js and Tailwind CSS, ionicon from Navbar toggle button, firebase hook, Backend use Nodejs, database from MongoDB, data fetch axios and async awaits.",
       languages: [
         {
           name: "Flutter",
@@ -612,9 +447,10 @@ const projects = {
     },
     {
       id: "51",
-      name: "RecipesAPI",
-      url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
-      description: "Get recipes for hundreds and thousands of dishes",
+      name: "Travel Thirsty website",
+      url: "https://travel-thirsty.web.app/",
+      description:
+        "It's a Travel Management Website for Multiple cities. it's totally responsive and dynamic for mobile and laptops.",
       languages: [
         {
           name: "NodeJS",
@@ -628,9 +464,10 @@ const projects = {
     },
     {
       id: "0",
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
+      name: "Dental clinic",
+      url: "https://dental-clinic-1a8c1.web.app",
+      description:
+        "Technologies: React Js, React Bootstrap, Firebase Authentication. Project Overview: It’s a website about Medical Services with modern React technology. Users can visit the Services & doctor page when they are signed in.",
       languages: [
         {
           name: "ReactJS",
@@ -640,10 +477,10 @@ const projects = {
     },
     {
       id: "1",
-      name: "Cab Security System",
-      url: " ",
+      name: "Embossed E-commerce (ongoing)",
+      url: " https://embossed-e-commerce.web.app/",
       description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
+        "Technologies: FrontEnd: React.js, Tailwind CSS, Flowbite, Swiper.js, React-icons, React Router Dom v6, React-rater, React-elastic-carousel, React Hook Form, Firebase Authentication Redux. BackEnd: MongoDB, Node.js, Express.js",
       languages: [
         {
           name: "Python",
@@ -661,10 +498,10 @@ const projects = {
     },
     {
       id: "2",
-      name: "Lensinator",
-      url: " ",
+      name: "E-commerce watch selling site",
+      url: " https://watch-23b46.web.app/",
       description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
+        "React functional component and Fully Responsive via Material UI. Complete CRUD operation is shown and Google and email signed in using Firebase authentication.",
       languages: [
         {
           name: "JavaScript",
@@ -682,10 +519,10 @@ const projects = {
     },
     {
       id: "12",
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
+      name: "Online Bank BD",
+      url: "https://online-money-bd.netlify.app/",
       description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
+        "it's a banking website for online money transactions. its a financial institution licensed to receive deposits and make loans.",
       languages: [
         {
           name: "Python",
@@ -703,10 +540,10 @@ const projects = {
     },
     {
       id: "13",
-      name: "Video Summarization (WIP)",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
+      name: "Qutir Mahal E-commerce site",
+      url: "https://qutir-mahal.web.app/",
       description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
+        "Technologies: React Js, Node Js, Node Express, MongoDB, Firebase, React Bootstrap, Heroku. Project Overview: Fully Functional e-commerce agency using MERN stack.To log in with Email: admin123@gmail.com and Pass: Admin@123",
       languages: [
         {
           name: "JavaScript",
@@ -728,10 +565,10 @@ const projects = {
     },
     {
       id: "3",
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
+      name: "Watch selling e-commerce",
+      url: "https://assignment-12-8d290.web.app/",
       description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
+        "React Js, Node Js, Node Express, MongoDB, Firebase, React Bootstrap, Heroku. Project Overview: A fully functional, full-stack web app based on MERN.",
       languages: [
         {
           name: "Python",
@@ -741,10 +578,10 @@ const projects = {
     },
     {
       id: "4",
-      name: "Project Pickle",
-      url: " ",
+      name: "E-commerce watch selling site",
+      url: "https://watch-23b46.web.app/ ",
       description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
+        "React functional component and Fully Responsive via Material UI, CRUD operation is shown. The admin panel can add the new watch. Admin can update the booking status. Check as admin (Email: abc@abc.com & password: 123456)",
       languages: [
         {
           name: "Java",
@@ -762,10 +599,10 @@ const projects = {
     },
     {
       id: "5",
-      name: "Project Health Card",
-      url: "",
+      name: "Fragrancy E-commerce site",
+      url: "https://fragrancy-25664.web.app/",
       description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
+        "React functional component and fully responsive website. Complete CRUD operation is shown. The payment gateway implements (Stripe). In both admin & user panels for easy access and control.",
       languages: [
         {
           name: "JavaScript",
@@ -791,10 +628,10 @@ const projects = {
     },
     {
       id: "6",
-      name: "Food Classifier",
-      url: " ",
+      name: "Healthy Food Delivery",
+      url: " https://hardcore-pare-4a9874.netlify.app/",
       description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
+        "Technologies : React Js, Node Js, Node Express, MongoDB, Firebase, React Bootstrap, Heroku. Project Overview : Functional food agency web application using MERN stack.",
       languages: [
         {
           name: "Flutter",
@@ -816,10 +653,9 @@ const projects = {
     },
     {
       id: "7",
-      name: "Image Clustering",
-      url: " ",
-      description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
+      name: "Project on crypto currency",
+      url: " https://crypto-currency-theme.netlify.app/",
+      description: "Project on crypto currency",
       languages: [
         {
           name: "Python",
@@ -833,10 +669,10 @@ const projects = {
     },
     {
       id: "8",
-      name: "Antivirus",
-      url: " ",
+      name: "Car Accessories",
+      url: " https://car-accessories-e4193.web.app/",
       description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
+        "Key Features: Authentication system with firebase.  Create and update database information (delete, add and update) Payment integration. Technology: React JS, Firebase, Tailwind CSS, Node JS, Express JS, Stripe, JWT token",
       languages: [
         {
           name: "Visual Basic",
@@ -846,10 +682,10 @@ const projects = {
     },
     {
       id: "9",
-      name: "Sugar on Windows",
-      url: " ",
+      name: "Doctor Appointment",
+      url: " https://doctors-portal-db136.web.app/",
       description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
+        "Key features: Appointment booking system for normal user (patient). Site admin can delete any user (patient) from database. Payment gateway (Stripe). Technology: React JS, Firebase, Tailwind CSS, Node JS, Express JS, Stripe",
       languages: [
         {
           name: "Visual Basic",
@@ -863,9 +699,10 @@ const projects = {
     },
     {
       id: "10",
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
+      name: "Gym site",
+      url: " https://gym-triner-9c7c3.web.app/",
+      description:
+        "It's a Gym trainer Website. Users can book any service. Users can read blogs.",
       languages: [
         {
           name: "Python",
@@ -878,26 +715,6 @@ const projects = {
         {
           name: "OpenCV",
           iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
         },
       ],
     },

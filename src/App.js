@@ -7,6 +7,7 @@ import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
 import ReactGA from "react-ga";
+import app from "./firebase.init";
 
 function App() {
   useEffect(() => {
